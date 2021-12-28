@@ -29,8 +29,6 @@ import java.util.HashMap;
 
 public class RegisterActivity extends AppCompatActivity {
 
-
-
     // deklarasi variabel dan connect firebase
     EditText editUsername;
     EditText editEmail;
@@ -176,8 +174,6 @@ public class RegisterActivity extends AppCompatActivity {
                         Toast.makeText(RegisterActivity.this, ""+e.getMessage(),Toast.LENGTH_SHORT).show();
                     }
                 });
-
-
 
     }
 }

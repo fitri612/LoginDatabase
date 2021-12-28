@@ -55,7 +55,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="24dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/card"
+        android:background="@drawable/atm"
         android:elevation="4dp"
         android:pathData="M20 0H288C299.046 0 308 8.95431 308 20V160C308 171.046 299.046 180 288 180H20C8.95431 180 0 171.046 0 160V20C0 8.95431 8.95431 0 20 0Z"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,6 +106,7 @@
             android:text="Rp. 10.000" />
 
         <ImageView
+            android:id="@+id/plus"
             android:layout_width="38dp"
             android:layout_height="38dp"
             android:layout_marginLeft="120dp"
